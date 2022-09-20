@@ -63,8 +63,9 @@ LIMIT 1;
 -- Use dbdiagram.io or draw.io to propose a new structure for the Sakila database. Define primary keys and foreign keys for the new database.
 
 
--- Added store_id to the rental table
--- Removed film_category and payment tables
--- Added foreign keys
--- Merged payment and rental tables
--- 
+-- Removed film_category and payment tables (merged with film and rental tables)
+-- Added foreign keys and constraints to some existing table like film, rental, staff
+-- Assigned to Language_id and original_language_id the same primary key
+-- Created district_id primary key
+
+
